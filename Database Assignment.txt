@@ -1,0 +1,90 @@
+1. What is database? explain with an example on why should we need a database.
+
+Ans. - A database is a structured collection of data that is organized and stored for efficient retrieval and manipulation. It can be thought of as an electronic filing system that allows data to be easily accessed, managed, and updated. Databases are crucial for handling large amounts of information in a systematic way.
+
+Example: Consider a company that needs to store information about its employees, such as names, addresses, salaries, and employment history. Instead of maintaining separate text files for each employee, a database can be used to store this information in a structured manner. This makes it easier to query and update employee data, ensuring consistency and efficiency.
+
+2. Write a short note on file based storage system. Explain the major challenges of a file based storage system?
+
+Ans. - File-based storage systems involve storing data in separate files, each dedicated to a specific application. While simple, they pose challenges such as data redundancy, data inconsistency, and difficulty in accessing and managing data. Retrieving specific information often requires parsing through entire files, leading to inefficiency. Additionally, file systems lack the ability to enforce relationships between data, making it challenging to maintain data integrity.
+
+3. What is DBMS? What is the need for DBMS?
+
+Ans. - DBMS, or Database Management System, is software that facilitates the creation, organization, and manipulation of databases. It provides an interface for users and applications to interact with the database efficiently. The need for DBMS arises due to several reasons, including:
+
+* Data Integrity: DBMS ensures that data is accurate, consistent, and remains uncorrupted.
+
+* Data Security: It provides mechanisms to control access to data, protecting sensitive information.
+
+* Data Independence: Changes in the structure or organization of the database do not affect the applications using it.
+
+* Concurrent Access: Multiple users can access and modify data simultaneously without conflicts.
+
+* Data Abstraction: Users interact with a high-level representation of data, hiding complex details.
+
+4. Explain 5 challenges of file-based storage system which was tackled by DBMS?
+
+Ans. - 1. Data Redundancy: DBMS reduces redundancy by storing data in a centralized manner, minimizing duplication.
+
+2. Data Inconsistency: DBMS enforces integrity constraints, preventing conflicting or inconsistent data.
+
+3. Data Isolation: DBMS ensures that data is isolated from unauthorized access, enhancing security.
+
+4. Data Dependence: Changes in the database structure do not impact applications, providing data independence.
+
+5. Concurrent Access: DBMS allows multiple users to access and modify data concurrently while maintaining consistency.
+
+5. List out the different types of classifications in DBMS and explain?
+
+Ans. - Based on Data Model:
+Relational Database Management System (RDBMS): Represents data in tables with rows and columns.
+
+NoSQL Database Management System: Supports unstructured and varied data types, suitable for big data applications.
+Based on the Number of Users:
+
+Single-user DBMS: Designed for a single user, typically used in personal databases.
+
+Multi-user DBMS: Supports concurrent access by multiple users, often used in business environments.
+
+Based on Database Distribution:
+Centralized DBMS: Manages data in a single location.
+
+Distributed DBMS: Distributes data across multiple locations for improved accessibility.
+
+6. What is the significance of data modeling and explain the types of data modeling?
+
+Ans. - Significance of Data Modeling:
+
+Visualization: Provides a visual representation of data structures and relationships.
+
+Communication: Facilitates communication between stakeholders, including developers and users.
+
+Design: Guides the design of a database, ensuring efficiency and effectiveness.
+
+Documentation: Serves as documentation for understanding the database structure.
+
+Types of Data Modeling:
+
+Conceptual Data Modeling: Focuses on high-level business concepts and relationships.
+
+Logical Data Modeling: Represents data entities, attributes, and relationships at a detailed level.
+
+Physical Data Modeling: Specifies how data is stored, including tables, indexes, and constraints.
+
+7. Explain three schema architecture along with its advantages?
+
+Ans. - Three-Schema Architecture:
+
+User Schema (View Level): Represents how data is presented to end-users.
+
+Logical Schema (Logical Level): Describes the logical structure of the data, including entities and relationships.
+
+Physical Schema (Storage Level): Defines how data is physically stored, including indexes and table structures.
+
+Advantages:
+
+Data Independence: Changes at one level do not affect the other levels, providing flexibility.
+
+Security: Users can be granted access to specific schemas, ensuring data security.
+
+Maintenance: Easier to maintain and modify the database without impacting user views.
